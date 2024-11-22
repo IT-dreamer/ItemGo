@@ -12,12 +12,16 @@
 
 ### Image error model
 
-| Field Name     | Data Type     | Required | Description                             |
-|----------------|---------------|----------|-----------------------------------------|
-| `imageURL`     | Long          | Yes      | ID of the associated image.             |
-| `errorMessage` | String        | Yes      | Description of the error that occurred. |
-| `errorTime`    | LocalDateTime | Yes      | Timestamp of when the error occurred.   |
+| Field Name     | Data Type     | Required | Description                                 |
+|----------------|---------------|----------|---------------------------------------------|
+| `imageURL`     | Long          | Yes      | ID of the associated image.                 |
+| `errorCode`    | String        | Yes      | Unique code representing the type of error. |
+| `errorMessage` | String        | Yes      | Description of the error that occurred.     |
+| `errorTime`    | LocalDateTime | Yes      | Timestamp of when the error occurred.       |
 
 ## Item
+### Item model
+
+### Item error model
 
 ## AI
