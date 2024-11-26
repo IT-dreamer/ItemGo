@@ -28,6 +28,16 @@
 
 ### Item model
 
+| Field Name       | Data Type | Description                 |
+|------------------|-----------|-----------------------------|
+| shopId           | String    | ID of Ichiba shop           |
+| ItemManageNumber | String    | Item manage number          |
+| itemType         | Enum      | Item Type in Rakuten Ichiba |
+| itemTitle        | String    | Item title                  |
+| itemPrice        | String    | Item price                  |
+| pcDescription    | String    | Item description on PC      |
+| spDescription    | String    | Item description on SP      |
+
 
 ### Item error model
 
