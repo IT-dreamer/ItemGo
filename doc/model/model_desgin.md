@@ -40,8 +40,16 @@
 
 
 ### Item error model
-To do
+
+| Field Name       | Data Type     | Description                                 |
+|------------------|---------------|---------------------------------------------|
+| ItemManageNumber | String        | Item manage number                          |
+| errorCode        | String        | Unique code representing the type of error. |
+| errorMessage     | String        | Description of the error that occurred.     |
+| errorTime        | LocalDateTime | Timestamp of when the error occurred.       |
+
 ## AI
+
 ### AI model
 
 | Field Name  | Data Type          | Description                                |
